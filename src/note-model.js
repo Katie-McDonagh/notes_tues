@@ -1,6 +1,7 @@
 (function(exports) {
-  function Note(message) { 
+  function Note(index, message) { 
       this.text = message;
+      this.index = index;
     }
     Note.prototype.display = function(){
       return this.text;

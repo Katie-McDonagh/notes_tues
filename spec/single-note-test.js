@@ -1,5 +1,5 @@
 function displaySingleHTML(){
-  var note = new Note("horse");
+  var note = new Note(1,"horse");
   var viewSingleNote = new ViewSingleNote(note);
 
     viewSingleNote.displayNote()
