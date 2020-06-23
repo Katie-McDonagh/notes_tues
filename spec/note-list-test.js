@@ -13,7 +13,9 @@ function storesANote() {
 
   noteList.createSingleNote("horse")
 
-  assert.isTrue(noteList.notes[0] === {text: "horse"});
+  var note = noteList.notes()
+
+  assert.isTrue(note[0].text === "horse");
 }
 
 storesANote();

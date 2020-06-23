@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Katie-McDonagh/notes_tues/issues"
   },
-  "homepage": "https://github.com/Katie-McDonagh/notes_tues#readme"
+  "homepage": "https://github.com/Katie-McDonagh/notes_tues#readme",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
 }
