@@ -5,8 +5,12 @@
 
   ViewNote.prototype.displayNote = function () {
   var note = this.noteList.notes();
+  var array = []
 
-  return `<ul><li><div>${note[0].text}</div></li></ul>`;
+  note.forEach(note => array.push(`<ul><li><div>${note.text.slice(0,20)}</div></li></ul>`))
+
+
+  return array.join('');
   }
 
 exports.ViewNote = ViewNote;
